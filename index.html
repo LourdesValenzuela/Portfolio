@@ -2,31 +2,34 @@
 <html>
     <head>
         <title>Mi portafolio personal</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
+        <nav class="menu-item">
+            <ul>
+              <a href="#acerca-de-mi">Acerca de mí</a>
+              <a href="#habilidades">Habilidades</a>
+              <a href="#formacion">Formación</a>
+              <a href="#proyectos">Proyectos</a>
+              <a href="#contactos">Contactos</a>
+            </ul>
+          </nav>
         <header>
-            <nav>
-                <ul>
-                    <a href="#acerca-de-mi">Acerca de mí</a>
-                    <a href="#habilidades">Habilidades</a>
-                    <a href="#experiencia">Experiencia</a>
-                    <a href="#proyectos">Proyectos</a>
-                    <a href="#contactos">Contactos</a>
-                </ul>
-            </nav>
-            <h1>Lourdes Valenzuela</h1>
-            <h2>Estudiante</h2>
+            <h1 class="animacion-titulo">Lourdes Valenzuela</h1>
+            <h2 class="animacion-titulo">Estudiante de Ingeniería en Informática</h2>
         </header>
         <main>
             <section id="acerca-de-mi">
                 <h2>Acerca de mí</h2>
-                <p>Como desarrollador web junior, fusiono mi pasión por el diseño y la
-                    programación para crear experiencias web excepcionales. Me esfuerzo por
-                    cada línea de código y cada detalle de diseño para asegurarme de que mis
-                    sitios web sean visualmente atractivos, funcionales y accesibles para
-                    todos. Estoy comprometido a seguir aprendiendo y mejorando continuamente
-                    mientras busco oportunidades desafiantes que amplíen mi experiencia en el
-                    desarrollo web.</p>
+                <p>Como estudiante de ingeniería en informática, me encanta el desarrollo web, 
+                    especialmente la creación de experiencias front-end. Aunque mi enfoque principal 
+                    está en el diseño y la usabilidad, también estoy emocionada por aprender sobre el 
+                    desarrollo back-end para construir soluciones completas y funcionales. Estoy 
+                    comprometida a crecer en ambas áreas y estoy entusiasmada por explorar nuevas 
+                    oportunidades. 
+                    <br>¡Bienvenido a mi portafolio, donde podrás seguir mi viaje en el 
+                    mundo del desarrollo web!</p>
             </section>
             <section id="habilidades">
                 <h2>Habilidades
@@ -35,27 +38,16 @@
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>Javascript</li>
-                    <li>Git</li>
-                    <li>Metodologías ágiles</li>
                 </ul>
             </section>
-            <section id="experiencia">
-                <h2>Experiencia</h2>
+            <section id="formacion">
+                <h2>Formación</h2>
                 <ul>
                     <li>
-                        <b>Empresa X</b> (2022-presente)
-                        <ul>
-                            <li>Desarrollador web junior
-                            </li>
-                            <li>Responsable del desarrollo y mantenimiento de la empresa</li>
-                        </ul>
+                        MiniBootcamp Mujeres Programando Paraguay (2024)
                     </li>
                     <li>
-                        <strong>Empresa Y</strong> (2020-2022)
-                        <ul>
-                            <li>Diseñador web</li>
-                            <li>Responsable del diseño y maquetación de la página web de la empresa</li>
-                        </ul>
+                        MiniBootcamp Programando Paraguay (2023)
                     </li>
                 </ul>
             </section>
@@ -63,30 +55,45 @@
                 <h2>Proyectos</h2>
                 <ul>
                     <li>
-                        <a href="https://stackoverflow.com/">Proyecto 1</a>
-                        <p>Descripción del proyecto 1</p>
+                        <p><b>The Hangman Game</b> <a href="https://lourdesvalenzuela.github.io/the_hangman_game/" class="fa fa-file-code-o"></a>
+                            <a href="https://github.com/LourdesValenzuela/the_hangman_game" class="fa fa-github"></a></p>
+                        <p>Juego del ahorcado con palabras en inglés para desarrollar y/o mejorar
+                        las habilidades de escritura
+                        <br>- Proyecto final del MiniBootcamp Programando Paraguay 2023
+                        </p>
                     </li>
                     <li>
-                        <a href="https://stackoverflow.com/">Proyecto 2</a> 
-                        <p>Descripción del proyecto 2</p>
+                        <p><b>Proyecto 2</b> <a href="" class="fa fa-file-code-o"></a>
+                            <a href="" class="fa fa-github"></a></p>
+                        <p>Descripción del proyecto
+                        <br>- Proyecto
+                        </p>
                     </li>
                 </ul>
             </section>
             <section id="contactos">
                 <h2>Contactos</h2>
                 <ul>
-                    <li>Email: lievalenzuela21@gmail.com</li>
-                    <li>WhatsApp: 0994927217</li>
+                    <li><i class="fa fa-envelope"></i>
+                        <span>lievalenzuela21@gmail.com</span>
+                    </li>
+                    <li><i class="fa fa-whatsapp"></i>
+                        <span>+595 994 927 217</span></li>
                     <li>
-                        Redes Sociales
-                        <ul>
-                            <li>
-                                <a href="https://stackoverflow.com/">LinkedIN</a> 
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/v__lourdes/">Instagram</a> 
-                            </li>
-                        </ul>
+                        <a href="https://stackoverflow.com/" class="fa fa-linkedin"></a> 
+                        <span>LinkedIN</span>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/v__lourdes/" class="fa fa-instagram"></a> 
+                        <span>v__lourdes</span>
+                    </li>
+                    <li>
+                        <form>
+                            <input type="text" placeholder="Nombre">
+                            <input type="email" placeholder="Correo electrónico">
+                            <textarea placeholder="Mensaje"></textarea>
+                            <input type="submit" value="Enviar">
+                        </form>
                     </li>
                 </ul>
             </section>
